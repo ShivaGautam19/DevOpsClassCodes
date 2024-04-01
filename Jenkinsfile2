@@ -31,5 +31,7 @@ pipeline{
          stage ('code deploy'){
             steps{
                sh 'cp /var/lib/jenkins/webapps/addressbook.war /opt/tomcat/webapps'
-    }
+            }
+        }
+   }
 }
